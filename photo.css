@@ -1,0 +1,60 @@
+
+body {
+		height: 100vh;
+	width: 100vw;
+	display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+}
+.overwatch{
+	height: 20vh;
+	width: 75vw;
+	justify-content: center;
+	url:{https://assets.tentonhammer.com/games/logos/000/000/656/default/overwatch_logo.png?1459957739:};
+	margin: 0;
+	
+}
+.lefty{
+	height: 100vh;
+	width: 50vw;
+}
+.righty{
+	height: 100vh;
+	width: 50vw;
+	display:flex;
+	flex-wrap:wrap;
+}
+.box{
+	height:50%;
+	width:50%;
+	
+}
+.lefty{
+background-color: blue;}
+.red{background-color: red;}
+.purple{background-color: purple;}
+.orange{background-color: orange;}
+.green{background-color: green;}
+
+.righty{
+background-colr: pink;
+}
+.pink{background-color: pink;}
+.black{background-color: black;}
+
+
+@media screen and (max-width: 800px){
+	.lefty{
+		height: 50vh;
+		width: 100vw;	
+	}
+	.righty{
+		height: 50vh;
+		width: 100vw;
+		}
+}
+img {
+	justify-content: center;
+	
+}
+
